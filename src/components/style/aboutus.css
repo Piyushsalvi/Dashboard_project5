@@ -1,0 +1,164 @@
+.about-us {
+  max-width: 1200px;
+  background-color: #f9f9f9;
+ 
+}
+
+.about-us-header {
+  
+  background-image: linear-gradient(to bottom, #4CAF50, #2E865F);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  transition: background-position 0.5s ease-out;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  /* color: darkgrey; */
+  /* margin-bottom: 10px; */
+  margin-top: 30px;
+}
+
+.section-description {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.team-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #337ab7;
+}
+
+.team-member {
+  margin: 20px;
+  width: calc(33.33% - 20px);
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.color {
+  color: #23527c;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.team-member-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.team-member-name {
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.team-member-position {
+  font-size: 14px;
+  color: #666;
+  margin-top: 0;
+}
+
+.values-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.value-item {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.value-item::before {
+  content: "\2022";
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.contact-section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+
+.contact-description {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #23527c;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.contact-info a:hover {
+  color: #23527c;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .team-member {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-member {
+    width: 100%;
+  }
+  .team-member-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .team-member-image {
+    width: 80px;
+    height: 80px;
+  }
+}

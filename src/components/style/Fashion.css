@@ -1,0 +1,41 @@
+.fashion-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .fashion-column {
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .fashion-heading{
+    font-weight: bold;
+    text-align: center;
+  }
+  .fashion-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .fashion-column p {
+    font-size: 16px;
+    
+    margin-top: 10px;
+  }
+  
+  .fashion-column b {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .fashion-column span {
+    font-size: 14px;
+    color: #666;
+  }
+
+ .fashion-image:hover {    transform: scale(1.1);
+    transition: 0.3s ease-in-out;}
